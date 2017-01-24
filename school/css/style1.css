@@ -101,7 +101,7 @@ img{
 /*scrol to top*/
 
 .scrollToTop {
-  background: url("img/bootom-top-arrow.png") no-repeat scroll 13px 12px #ffffff;
+  background: url("../img/bootom-top-arrow.png") no-repeat scroll 13px 12px #ffffff;
   border: 3px solid #f0f1f3;
   border-radius: 5px;
   bottom: 20px;
@@ -152,7 +152,7 @@ img{
   color: #fff;
 }
 .navbar-default {
-  background-color: #313b3d;
+  background-color:rgba(4, 95, 232,0.9);
   border-color: transparent;
 }
 #navbar{overflow-x: hidden;}
@@ -171,7 +171,7 @@ img{
   background-color: transparent;
 }
 .navbar-nav > li > .dropdown-menu {
-  background-color: #48575a; 
+  background-color: #e8e804; 
 }
 .navbar-nav > li > .dropdown-menu:before { 
   border-bottom: 15px solid #48575a; 
@@ -186,7 +186,8 @@ img{
 }
 .navbar-nav > li > .dropdown-menu li a {
   border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
-  color: #fff;
+  color: black;
+  font-weight:bold;
   display: block;  
   opacity: 0.8;
   padding: 10px;
@@ -239,13 +240,13 @@ img{
 .slider_caption h2 {
   color: #fff;
   font-size: 33px;
-  background-color: rgba(49, 59, 61, 0.6);
+  background-color:transparent;
   padding: 8px;
   margin-bottom: 5px;
   text-transform: uppercase;
 }
 .slider_caption p {
-  background-color: rgba(49, 59, 61, 0.6);
+  background-color: transparent;
   color: #fff;
   font-family: "Varela",sans-serif;
   font-size: 15px;
@@ -253,7 +254,7 @@ img{
   padding: 10px;
 }
 .slider_btn {  
-  background: rgba(49, 59, 61, 0.6);
+  background:transparent;
   border: 2px solid #fff;
   border-radius: 5px;
   color: #fff;
@@ -296,6 +297,7 @@ img{
   float: left;
   padding-right: 30px;
   width: 100%;
+  margin-left:30px;
 }
 .aboutus_area p {
   line-height: 22px;
@@ -359,6 +361,19 @@ img{
   -o-transition: all 0.5s;
   -ms-transition: all 0.5s;
   transition: all 0.5s;
+}
+.news_tab_events li{
+  border: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.events_contain>img{
+  width:540px;
+  height:280px;
+  border:1px solid black;
+  display:block;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 .feed_date{
   color: #ccc;
@@ -1735,8 +1750,17 @@ div[data-dimension] {
 #purple{
   background-color: #c762cb;
 }
-
-
+/*Social Media Icon*/
+.socmed{
+  width:20px;
+  height:20px;
+  display:block;
+}
+.wall{
+  margin:0 20px 0 20px;
+  width:20px;
+  display: block;
+}
 /*======================///////////////
 			start responsive style
 =====================///////////////////////*/

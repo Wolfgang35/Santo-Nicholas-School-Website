@@ -24,7 +24,7 @@
               </button>
               <!-- LOGO -->
               <!-- TEXT BASED LOGO -->
-              <a class="navbar-brand" href="index.html">Santo <span>Nicholas School</span></a>              
+              <a class="navbar-brand" href="index.html">Santo Nicholas School</a>              
               <!-- IMG BASED LOGO  -->
                <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>  -->            
                      
@@ -33,7 +33,7 @@
               <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
                 <li class="active"><a href="index.php">Home</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded ="false">
+                  <a href="#about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded ="false">
                   About Us<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="404.html">Our Values</a></li>
@@ -111,18 +111,6 @@
       <div class="container">
         <div class="row">
         <!-- Start about us area -->
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="aboutus_area wow fadeInLeft">
-            <h2 class="titile">About Us</h2>
-            <p><h4><strong>MOTTO:</strong>
-        <h2>Scientia Maxime Cum Virtute</h2>
-        <p>"Knowledge is Best With Virtue"</p>
-        <p>"Pengetahuan Terbaik Disertai Dengan Kebajikan"</p>
-        <p>Emphasizes that the attainment of knowledge and discovery of truth are best when achieved and lived with virtues necessary to develop a responsible and loving individual.</p>
-        <p>Menekankan bahwa pencapaian pengetahuan dan penemuan dari kebenaran adalah yang terbaik dicapai dan hidup dan dengan kebajikan untuk mengembangkan individu yang bertanggung jawab dan penuh kasih.</p>
-        </h4></p>
-          </div>
-        </div>
         <div class="col-lg-6 col-md-6 col-sm-6">
           <div class="newsfeed_area wow fadeInRight">
             <ul class="nav nav-tabs feed_tabs" id="myTab2">
@@ -267,50 +255,26 @@
               </div>
               <!-- Start events tab content -->
               <div class="tab-pane fade " id="events">
-                <ul class="news_tab">
-                  <li>
-                    <div class="media">
-                      <div class="media-left">
-                        <a class="news_img" href="#">
-                          <img class="media-object" src="img/news.jpg" alt="img">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                       <a href="#">Dummy text of the printing and typesetting industry</a>
-                       <span class="feed_date">27.02.15</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="media">
-                      <div class="media-left">
-                        <a class="news_img" href="#">
-                          <img class="media-object" src="img/news.jpg" alt="img">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                       <a href="#">Dummy text of the printing and typesetting industry</a>
-                       <span class="feed_date">28.02.15</span>                
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="media">
-                      <div class="media-left">
-                        <a class="news_img" href="#">
-                          <img class="media-object" src="img/news.jpg" alt="img">
-                        </a>
-                      </div>
-                      <div class="media-body">
-                       <a href="#">Dummy text of the printing and typesetting industry</a>
-                       <span class="feed_date">28.02.15</span>                
-                      </div>
-                    </div>
-                  </li>                  
-                </ul>
+                <ul class="news_tab_events">
+                  <div class="events_contain">
+                      <img src="img/white_canvas.png">
+                  </div>
                 <a class="see_all" href="#">See All</a>
               </div>
             </div>
+          </div>
+        </div>
+        <!--about us-->
+        <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="aboutus_area wow fadeInLeft" id="about">
+        <h2 class="titile">About Us</h2>
+        <p><h4><strong>MOTTO:</strong>
+        <h2>Scientia Maxime Cum Virtute</h2>
+        <p>"Knowledge is Best With Virtue"</p>
+        <p>"Pengetahuan Terbaik Disertai Dengan Kebajikan"</p>
+        <p>Emphasizes that the attainment of knowledge and discovery of truth are best when achieved and lived with virtues necessary to develop a responsible and loving individual.</p>
+        <p>Menekankan bahwa pencapaian pengetahuan dan penemuan dari kebenaran adalah yang terbaik dicapai dan hidup dan dengan kebajikan untuk mengembangkan individu yang bertanggung jawab dan penuh kasih.</p>
+        </h4></p>
           </div>
         </div>
       </div>
@@ -329,7 +293,7 @@
               <div class="row">
                 <div class="col-lg-12 col-md-12"> 
                   <div class="title_area">
-                    <h2 class="title_two">Why Us</h2>
+                    <h2 class="title_two">School Profile</h2>
                     <span></span> 
                   </div>
                 </div>
@@ -342,7 +306,7 @@
                     <div class="whyus_icon">
                       <span class="fa fa-desktop"></span>
                     </div>
-                    <h3>Technology</h3>
+                    <h3>Headmaster</h3>
                     <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
                   </div>
                 </div>
@@ -351,7 +315,7 @@
                     <div class="whyus_icon">
                       <span class="fa fa-users"></span>
                     </div>
-                    <h3>Best Tutor</h3>
+                    <h3>HOD</h3>
                     <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
                   </div>
                 </div>
@@ -374,197 +338,12 @@
                   </div>
                 </div>
               </div>
-              <!-- End Why us top content  -->
+              <!-- End School Profile content  -->
             </div>
           </div>
         </div>        
       </div>
       <!-- End why us top -->
-
-      <!-- Start why us bottom -->
-      <div class="row">        
-        <div class="col-lg-12 col-sm-12">
-          <div class="whyus_bottom">            
-            <div class="slider_overlay"></div>
-            <div class="container">               
-              <div class="skills">                
-                <!-- START SINGLE SKILL-->
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                 <div class="single_skill wow fadeInUp">
-                   <div id="myStat" data-dimension="150" data-text="35%" data-info="" data-width="10" data-fontsize="25" data-percent="35" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                    <h4>Repeate Learners</h4>                      
-                  </div>
-                </div>
-                <!-- START SINGLE SKILL-->
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                  <div class="single_skill wow fadeInUp">
-                    <div id="myStathalf2" data-dimension="150" data-text="90%" data-info="" data-width="10" data-fontsize="25" data-percent="90" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                    <h4>Success Rate</h4>
-                  </div>
-                </div>
-                <!-- START SINGLE SKILL-->
-                <div class="col-lg-3 col-md-3 col-sm-3">                 
-                  <div class="single_skill wow fadeInUp">
-                    <div id="myStat2" data-dimension="150" data-text="100%" data-info="" data-width="10" data-fontsize="25" data-percent="100" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                    <h4>Student Engagement</h4>
-                  </div>
-                </div>
-                <!-- START SINGLE SKILL-->
-                <div class="col-lg-3 col-md-3 col-sm-3">                 
-                  <div class="single_skill wow fadeInUp">
-                    <div id="myStat3" data-dimension="150" data-text="65%" data-info="" data-width="10" data-fontsize="25" data-percent="65" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                    <h4>Certified Courses</h4>
-                  </div>
-                </div>
-              </div>
-            </div>            
-          </div>
-        </div>        
-      </div>
-      <!-- End why us bottom -->
-    </section>
-    <!--=========== END WHY US SECTION ================-->
-
-    <!--=========== BEGIN OUR COURSES SECTION ================-->
-    <section id="ourCourses">
-      <div class="container">
-       <!-- Our courses titile -->
-        <div class="row">
-          <div class="col-lg-12 col-md-12"> 
-            <div class="title_area">
-              <h2 class="title_two">Our Courses</h2>
-              <span></span> 
-            </div>
-          </div>
-        </div>
-        <!-- End Our courses titile -->
-        <!-- Start Our courses content -->
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="ourCourse_content">
-              <ul class="course_nav">
-                <li>
-                  <div class="single_course">
-                    <div class="singCourse_imgarea">
-                      <img src="img/course-1.jpg" />
-                      <div class="mask">                         
-                        <a href="#" class="course_more">View Course</a>
-                      </div>
-                    </div>
-                    <div class="singCourse_content">
-                    <h3 class="singCourse_title"><a href="#">Introduction To Matrix</a></h3>
-                    <p class="singCourse_price"><span>$20</span> Per One Month</p>
-                    <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    </div>
-                    <div class="singCourse_author">
-                      <img src="img/author.jpg" alt="img">
-                      <p>Richard Remus, Teacher</p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="single_course">
-                    <div class="singCourse_imgarea">
-                      <img src="img/course-2.jpg" />
-                      <div class="mask">                         
-                        <a href="#" class="course_more">View Course</a>
-                      </div>
-                    </div>
-                    <div class="singCourse_content">
-                    <h3 class="singCourse_title"><a href="#">Introduction To Matrix</a></h3>
-                    <p class="singCourse_price"><span>$20</span> Per One Month</p>
-                    <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    </div>
-                    <div class="singCourse_author">
-                      <img src="img/author.jpg" alt="img">
-                      <p>Richard Remus, Teacher</p>
-                    </div>
-                  </div>
-                </li> 
-                <li>
-                  <div class="single_course">
-                    <div class="singCourse_imgarea">
-                      <img src="img/course-1.jpg" />
-                      <div class="mask">                         
-                        <a href="#" class="course_more">View Course</a>
-                      </div>
-                    </div>
-                    <div class="singCourse_content">
-                    <h3 class="singCourse_title"><a href="#">Introduction To Matrix</a></h3>
-                    <p class="singCourse_price"><span>$20</span> Per One Month</p>
-                    <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    </div>
-                    <div class="singCourse_author">
-                      <img src="img/author.jpg" alt="img">
-                      <p>Richard Remus, Teacher</p>
-                    </div>
-                  </div>
-                </li>  
-                <li>
-                  <div class="single_course">
-                    <div class="singCourse_imgarea">
-                      <img src="img/course-2.jpg" />
-                      <div class="mask">                         
-                        <a href="#" class="course_more">View Course</a>
-                      </div>
-                    </div>
-                    <div class="singCourse_content">
-                    <h3 class="singCourse_title"><a href="#">Introduction To Matrix</a></h3>
-                    <p class="singCourse_price"><span>$20</span> Per One Month</p>
-                    <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    </div>
-                    <div class="singCourse_author">
-                      <img src="img/author.jpg" alt="img">
-                      <p>Richard Remus, Teacher</p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="single_course">
-                    <div class="singCourse_imgarea">
-                      <img src="img/course-1.jpg" />
-                      <div class="mask">                         
-                        <a href="#" class="course_more">View Course</a>
-                      </div>
-                    </div>
-                    <div class="singCourse_content">
-                    <h3 class="singCourse_title"><a href="#">Introduction To Matrix</a></h3>
-                    <p class="singCourse_price"><span>$20</span> Per One Month</p>
-                    <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    </div>
-                    <div class="singCourse_author">
-                      <img src="img/author.jpg" alt="img">
-                      <p>Richard Remus, Teacher</p>
-                    </div>
-                  </div>
-                </li> 
-                <li>
-                  <div class="single_course">
-                    <div class="singCourse_imgarea">
-                      <img src="img/course-2.jpg" />
-                      <div class="mask">                         
-                        <a href="#" class="course_more">View Course</a>
-                      </div>
-                    </div>
-                    <div class="singCourse_content">
-                    <h3 class="singCourse_title"><a href="#">Introduction To Matrix</a></h3>
-                    <p class="singCourse_price"><span>$20</span> Per One Month</p>
-                    <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    </div>
-                    <div class="singCourse_author">
-                      <img src="img/author.jpg" alt="img">
-                      <p>Richard Remus, Teacher</p>
-                    </div>
-                  </div>
-                </li>                
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- End Our courses content -->
-      </div>
-    </section>
-    <!--=========== END OUR COURSES SECTION ================-->  
 
     <!--=========== BEGIN OUR TUTORS SECTION ================-->
     <section id="ourTutors">
@@ -828,11 +607,12 @@
               <div class="single_footer_widget">
                 <h3>Social Links</h3>
                 <ul class="footer_social">
-                  <li><a data-toggle="tooltip" data-placement="top" title="Facebook" class="soc_tooltip" href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a data-toggle="tooltip" data-placement="top" title="Twitter" class="soc_tooltip"  href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a data-toggle="tooltip" data-placement="top" title="Google+" class="soc_tooltip"  href="#"><i class="fa fa-google-plus"></i></a></li>
-                  <li><a data-toggle="tooltip" data-placement="top" title="Linkedin" class="soc_tooltip"  href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a data-toggle="tooltip" data-placement="top" title="Youtube" class="soc_tooltip"  href="#"><i class="fa fa-youtube"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="Facebook" class="soc_tooltip" href="#"><i class="socmed"><img src="img/facebook.png" style="width:20px;height:20px;"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="Twitter" class="soc_tooltip"  href="#"><i class="socmed"><img src="img/twitter.png" style="width:20px; height:20px;"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="Instagram" class="soc_tooltip"  href="#"><i class="socmed"><img src="img/instagram.png" style="width:23px; height:22px;"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="Google+" class="soc_tooltip"  href="#"><i class="socmed"><img src="img/Google+.png" style="width: 24px; height: 23px;"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="Youtube" class="soc_tooltip"  href="#"><i class="socmed"><img src="
+                  img/youtube.gif" style="width: 25px; height: 24px;"></i></a></li>
                 </ul>
               </div>
             </div>

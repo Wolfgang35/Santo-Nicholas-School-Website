@@ -3,6 +3,7 @@
 }
 #slides .slides-container {
   display: none;
+  transition: 0.6s ease-in-out left;
 }
 #slides .scrollable {
   *zoom: 1;
