@@ -1,8 +1,10 @@
-<script type="text/javascript">
 $(document).ready(function(){
-     $("#slider").slides-container({
-         interval : 8000,
-         pause: false
-     });
+setInterval(function(){
+    $('#slides>div:first')
+    .fadeOut(1000)
+    
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slides');
+},3000);
 });
-</script>

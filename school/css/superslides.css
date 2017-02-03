@@ -3,7 +3,6 @@
 }
 #slides .slides-container {
   display: none;
-  transition: 0.6s ease-in-out left;
 }
 #slides .scrollable {
   *zoom: 1;
@@ -25,7 +24,7 @@
   position: absolute;
   z-index: 3;
   top: 46%;
-  width: 100%;
+  width: 60px;
 }
 .slides-navigation a {
   position: absolute;
@@ -50,11 +49,8 @@
   background-position: left center;
 }
 .slides-navigation a.next:hover {  
-  background-position: left -75px center;
-  
+  background-position: left -75px center; 
 }
-
-
 .slides-pagination {
   position: absolute;
   z-index: 3;
