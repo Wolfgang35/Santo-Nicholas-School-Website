@@ -297,6 +297,7 @@ img{
   float: left;
   padding-right: 30px;
   width: 100%;
+  margin-left:30px;
 }
 .aboutus_area p {
   line-height: 22px;
@@ -361,6 +362,19 @@ img{
   -ms-transition: all 0.5s;
   transition: all 0.5s;
 }
+.news_tab_events li{
+  border: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.events_contain>img{
+  width:540px;
+  height:280px;
+  border:1px solid black;
+  display:block;
+  margin-top:10px;
+  margin-bottom:10px;
+}
 .feed_date{
   color: #ccc;
   font-style: italic;
@@ -390,14 +404,14 @@ img{
   width: 100%;
 }
 .single_notice_pane .slick-prev {  
-  background-image: url("img/nav-prev.png");
+  background-image: url("../img/nav-prev.png");
   background-repeat: no-repeat;
   height: 30px;
   width: 30px;
   background-position: center;
 }
 .single_notice_pane .slick-next {  
-  background-image: url("img/nav-next.png");
+  background-image: url("../img/nav-next.png");
   background-repeat: no-repeat;
   height: 30px;
   width: 30px;
@@ -1736,8 +1750,17 @@ div[data-dimension] {
 #purple{
   background-color: #c762cb;
 }
-
-
+/*Social Media Icon*/
+.socmed{
+  width:20px;
+  height:20px;
+  display:block;
+}
+.wall{
+  margin:0 20px 0 20px;
+  width:20px;
+  display: block;
+}
 /*======================///////////////
 			start responsive style
 =====================///////////////////////*/
@@ -1831,4 +1854,8 @@ div[data-dimension] {
 @media(max-width:320px ){
 
 	
+}
+.log{
+  margin:0 20px;
+  width:400px;
 }

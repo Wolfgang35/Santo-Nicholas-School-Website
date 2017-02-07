@@ -23,11 +23,10 @@
                 <span class="icon-bar"></span>
               </button>
               <!-- LOGO -->
-              <!-- TEXT BASED LOGO -->
-              <a class="navbar-brand" href="index.html">Santo Nicholas School</a>              
               <!-- IMG BASED LOGO  -->
-               <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>  -->            
-                     
+               <a class="navbar-brand" href="index.html"><img src="img/logo/SNS small logo.png" alt="logo"></a>
+              <!-- TEXT BASED LOGO -->
+              <a class="navbar-brand" href="index.html">Santo Nicholas School</a>                     
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
@@ -37,7 +36,7 @@
                   About Us<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="404.html">Our Values</a></li>
-                    <li><a href="#">School Profile</a></li>    
+                    <li><a href="#profile">School Profile</a></li>    
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -65,171 +64,39 @@
       <div class="row">
         <div class="col-lg-12 col-md-12">
           <div class="slider_area">
-          <script src="js/jssor.slider-22.1.8.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        jssor_1_slider_init = function() {
-
-            var jssor_1_SlideshowTransitions = [
-              {$Duration:1200,$Opacity:2}
-            ];
-
-            var jssor_1_options = {
-              $AutoPlay: true,
-              $SlideshowOptions: {
-                $Class: $JssorSlideshowRunner$,
-                $Transitions: jssor_1_SlideshowTransitions,
-                $TransitionsOrder: 1
-              },
-              $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$
-              },
-              $BulletNavigatorOptions: {
-                $Class: $JssorBulletNavigator$
-              }
-            };
-
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-            /*responsive code begin*/
-            /*you can remove responsive code if you don't want the slider scales while window resizing*/
-            function ScaleSlider() {
-                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-                if (refSize) {
-                    refSize = Math.min(refSize, 2340);
-                    jssor_1_slider.$ScaleWidth(refSize);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
-            ScaleSlider();
-            $Jssor$.$AddEvent(window, "load", ScaleSlider);
-            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-            /*responsive code end*/
-        };
-    </script>
-    <style>
-        /* jssor slider bullet navigator skin 05 css */
-        /*
-        .jssorb05 div           (normal)
-        .jssorb05 div:hover     (normal mouseover)
-        .jssorb05 .av           (active)
-        .jssorb05 .av:hover     (active mouseover)
-        .jssorb05 .dn           (mousedown)
-        */
-        .jssorb05 {
-            position: absolute;
-        }
-        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-            position: absolute;
-            /* size of bullet elment */
-            width: 16px;
-            height: 16px;
-            background: url('img/b05.png') no-repeat;
-            overflow: hidden;
-            cursor: pointer;
-        }
-        .jssorb05 div { background-position: -7px -7px; }
-        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
-        .jssorb05 .av { background-position: -67px -7px; }
-        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
-
-        /* jssor slider arrow navigator skin 12 css */
-        /*
-        .jssora12l                  (normal)
-        .jssora12r                  (normal)
-        .jssora12l:hover            (normal mouseover)
-        .jssora12r:hover            (normal mouseover)
-        .jssora12l.jssora12ldn      (mousedown)
-        .jssora12r.jssora12rdn      (mousedown)
-        */
-        .jssora12l, .jssora12r {
-            display: block;
-            position: absolute;
-            /* size of arrow element */
-            width: 30px;
-            height: 46px;
-            cursor: pointer;
-            background: url('img/a12.png') no-repeat;
-            overflow: hidden;
-        }
-        .jssora12l { background-position: -16px -37px; }
-        .jssora12r { background-position: -75px -37px; }
-        .jssora12l:hover { background-position: -136px -37px; }
-        .jssora12r:hover { background-position: -195px -37px; }
-        .jssora12l.jssora12ldn { background-position: -256px -37px; }
-        .jssora12r.jssora12rdn { background-position: -315px -37px; }
-    </style>
-    <div class="slides-container">
-    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:300px;overflow:hidden;visibility:hidden;">
-        <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-        </div>
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
-            <a data-u="any" href="http://www.jssor.com" style="display:none">Simple Fade Slideshow</a>
-            <div>
-            <ul class="slides-container">       
+           <!-- Start super slider -->
+            <div id="slides">
+              <ul class="slides-container">                          
                 <li>
-                  <img data-u="image" src="img/slider/2.jpg" alt="img">
+                  <img src="img/slider/2.jpg" alt="img">
                    <div class="slider_caption">
-                    <h2>Bla"</h2>
+                    <h2>Largest & Beautiful University</h2>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                     <a class="slider_btn" href="#">Know More</a>
                   </div>
                   </li>
-                  </ul>
-                <img data-u="image" src="img/slider/4.jpg" alt="img" />
-            </div>
-            <div>
-                <img data-u="image" src="img/slider/2.jpg" alt="img" />
-            </div>
-            <div>
-                <img data-u="image" src="img/slider/3.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="img/slider/2.jpg" />
-            </div>
-        </div>
-    <script type="text/javascript">jssor_1_slider_init();</script>
-    </div>
-            <!-- Start super slider -->
-            <!--<div id="slides">--
-              <ul class="slides-container">       
+                <!-- Start single slider-->
                 <li>
-                  <img data-u="image" src="img/slider/2.jpg" alt="img">
-                   <div class="slider_caption">
-                    <h2>Bla"</h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    <a class="slider_btn" href="#">Know More</a>
-                  </div>
-                  </li>
-                < Start single slider--
-                <li>
-                  <img data-u="image" src="img/slider/3.jpg" alt="img">
+                  <img src="img/slider/3.jpg" alt="img">
                    <div class="slider_caption slider_right_caption">
                     <h2>Better Education Environment</h2>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search</p>
                     <a class="slider_btn" href="#">Know More</a>
                   </div>
                 </li>
-                <!-- Start single slider--
+                <!-- Start single slider-->
                 <li>
-                  <img data-u="image" src="img/slider/4.jpg" alt="img">
+                  <img src="img/slider/4.jpg" alt="img">
                    <div class="slider_caption">
                     <h2>Find out you in better way</h2>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search</p>
                     <a class="slider_btn" href="#">Know More</a>
                   </div>
                 </li>
-              </ul>-->
+              </ul>
               <nav class="slides-navigation">
-                <a href="myCarousel" class="next"></a>
-                <a href="myCarousel" class="prev"></a>
-              </nav>
-              <nav class="slides-pagination">
+                <a href="#" class="next"></a>
+                <a href="#" class="prev"></a>
               </nav>
             </div>
           </div>
@@ -239,7 +106,7 @@
     <!--=========== END SLIDER SECTION ================-->
 
     <!--=========== BEGIN ABOUT US SECTION ================-->
-    <section id="aboutUs">
+    <section id="about">
       <div class="container">
         <div class="row">
         <!-- Start about us area -->
@@ -415,7 +282,7 @@
     <!--=========== END ABOUT US SECTION ================--> 
 
     <!--=========== BEGIN WHY US SECTION ================-->
-    <section id="whyUs">
+    <section id="profile">
       <!-- Start why us top -->
       <div class="row">        
         <div class="col-lg-12 col-sm-12">
@@ -477,238 +344,17 @@
       </div>
       <!-- End why us top -->
 
-    <!--=========== BEGIN OUR TUTORS SECTION ================-->
-    <section id="ourTutors">
-      <div class="container">
-       <!-- Our courses titile -->
-        <div class="row">
-          <div class="col-lg-12 col-md-12"> 
-            <div class="title_area">
-              <h2 class="title_two">Our Tutors</h2>
-              <span></span> 
-            </div>
-          </div>
-        </div>
-        <!-- End Our courses titile -->
+    <?php require("partial/maps.html") ?>
 
-        <!-- Start Our courses content -->
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="ourTutors_content">
-              <!-- Start Tutors nav -->
-              <ul class="tutors_nav">
-                <li>
-                  <div class="single_tutors">
-                    <div class="tutors_thumb">
-                      <img src="img/author.jpg" />                      
-                    </div>
-                    <div class="singTutors_content">
-                      <h3 class="tutors_name">Jame Burns</h3>
-                      <span>Technology Teacher</span>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                    </div>
-                    <div class="singTutors_social">
-                      <ul class="tutors_socnav">
-                        <li><a class="fa fa-facebook" href="#"></a></li>
-                        <li><a class="fa fa-twitter" href="#"></a></li>
-                        <li><a class="fa fa-instagram" href="#"></a></li>
-                        <li><a class="fa fa-google-plus" href="#"></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="single_tutors">
-                    <div class="tutors_thumb">
-                      <img src="img/course-1.jpg" />                      
-                    </div>
-                    <div class="singTutors_content">
-                      <h3 class="tutors_name">Jame Burns</h3>
-                      <span>Technology Teacher</span>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                    </div>
-                    <div class="singTutors_social">
-                      <ul class="tutors_socnav">
-                        <li><a class="fa fa-facebook" href="#"></a></li>
-                        <li><a class="fa fa-twitter" href="#"></a></li>
-                        <li><a class="fa fa-instagram" href="#"></a></li>
-                        <li><a class="fa fa-google-plus" href="#"></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="single_tutors">
-                    <div class="tutors_thumb">
-                      <img src="img/author.jpg" />                      
-                    </div>
-                    <div class="singTutors_content">
-                      <h3 class="tutors_name">Jame Burns</h3>
-                      <span>Technology Teacher</span>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                    </div>
-                    <div class="singTutors_social">
-                      <ul class="tutors_socnav">
-                        <li><a class="fa fa-facebook" href="#"></a></li>
-                        <li><a class="fa fa-twitter" href="#"></a></li>
-                        <li><a class="fa fa-instagram" href="#"></a></li>
-                        <li><a class="fa fa-google-plus" href="#"></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="single_tutors">
-                    <div class="tutors_thumb">
-                      <img src="img/course-1.jpg" />                      
-                    </div>
-                    <div class="singTutors_content">
-                      <h3 class="tutors_name">Jame Burns</h3>
-                      <span>Technology Teacher</span>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                    </div>
-                    <div class="singTutors_social">
-                      <ul class="tutors_socnav">
-                        <li><a class="fa fa-facebook" href="#"></a></li>
-                        <li><a class="fa fa-twitter" href="#"></a></li>
-                        <li><a class="fa fa-instagram" href="#"></a></li>
-                        <li><a class="fa fa-google-plus" href="#"></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="single_tutors">
-                    <div class="tutors_thumb">
-                      <img src="img/author.jpg" />                      
-                    </div>
-                    <div class="singTutors_content">
-                      <h3 class="tutors_name">Jame Burns</h3>
-                      <span>Technology Teacher</span>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                    </div>
-                    <div class="singTutors_social">
-                      <ul class="tutors_socnav">
-                        <li><a class="fa fa-facebook" href="#"></a></li>
-                        <li><a class="fa fa-twitter" href="#"></a></li>
-                        <li><a class="fa fa-instagram" href="#"></a></li>
-                        <li><a class="fa fa-google-plus" href="#"></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="single_tutors">
-                    <div class="tutors_thumb">
-                      <img src="img/course-1.jpg" />                      
-                    </div>
-                    <div class="singTutors_content">
-                      <h3 class="tutors_name">Jame Burns</h3>
-                      <span>Technology Teacher</span>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                    </div>
-                    <div class="singTutors_social">
-                      <ul class="tutors_socnav">
-                        <li><a class="fa fa-facebook" href="#"></a></li>
-                        <li><a class="fa fa-twitter" href="#"></a></li>
-                        <li><a class="fa fa-instagram" href="#"></a></li>
-                        <li><a class="fa fa-google-plus" href="#"></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>                                             
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- End Our courses content -->
-      </div>
-    </section>
-    <!--=========== END OUR TUTORS SECTION ================-->
-
-    <!--=========== BEGIN STUDENTS TESTIMONIAL SECTION ================-->
-    <section id="studentsTestimonial">
-      <div class="container">
-       <!-- Our courses titile -->
-        <div class="row">
-          <div class="col-lg-12 col-md-12"> 
-            <div class="title_area">
-              <h2 class="title_two">What our Student says</h2>
-              <span></span> 
-            </div>
-          </div>
-        </div>
-        <!-- End Our courses titile -->
-
-        <!-- Start Our courses content -->
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="studentsTestimonial_content">              
-              <div class="row">
-                <!-- start single student testimonial -->
-                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <div class="single_stsTestimonial wow fadeInUp">
-                    <div class="stsTestimonial_msgbox">
-                      <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    </div>
-                    <img class="stsTesti_img" src="img/author.jpg" alt="img">
-                    <div class="stsTestimonial_content">
-                      <h3>Johnathan Doe</h3>                      
-                      <span>Ex. Student</span>
-                      <p>Software Department</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End single student testimonial -->
-                <!-- start single student testimonial -->
-                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <div class="single_stsTestimonial wow fadeInUp">
-                    <div class="stsTestimonial_msgbox">
-                      <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.scrambled it to make a type specimen book</p>
-                    </div>
-                    <img class="stsTesti_img" src="img/author.jpg" alt="img">
-                    <div class="stsTestimonial_content">
-                      <h3>Johnathan Doe</h3>                      
-                      <span>Ex. Student</span>
-                      <p>Software Department</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End single student testimonial -->
-                <!-- start single student testimonial -->
-                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <div class="single_stsTestimonial wow fadeInUp">
-                    <div class="stsTestimonial_msgbox">
-                      <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    </div>
-                    <img class="stsTesti_img" src="img/author.jpg" alt="img">
-                    <div class="stsTestimonial_content">
-                      <h3>Johnathan Doe</h3>                      
-                      <span>Ex. Student</span>
-                      <p>Software Department</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End single student testimonial -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Our courses content -->
-      </div>
-    </section>
-    <!--=========== END STUDENTS TESTIMONIAL SECTION ================-->    
-    
     <!--=========== BEGIN FOOTER SECTION ================-->
     <footer id="footer">
       <!-- Start footer top area -->
       <div class="footer_top">
         <div class="container">
           <div class="row">
-            <div class="col-ld-3  col-md-3 col-sm-3">
+            <div class="col-ld-4 col-md-4 col-sm-4">
               <div class="single_footer_widget">
-                <h3>About Us</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <img src="img/logo/SNS Logo.png" style="width:300px;margin-right:70px;">
               </div>
             </div>
             <div class="col-ld-3  col-md-3 col-sm-3">
@@ -748,6 +394,14 @@
                 </ul>
               </div>
             </div>
+             <div class="col-ld-3  col-md-3 col-sm-3">
+              <div class="single_footer_widget">
+                <h3>Our Partners</h3>
+                <ul class="footer_social">
+                  <li><a data-toggle="tooltip" data-placement="right" title="bla" class="soc_tooltip" href="#"><i class="socmed"><img src="img/02.jpg" style="width:100px; height:50px;"></i></a></li>
+                  </ul>
+              </div>
+              </div>
           </div>
         </div>
       </div>
@@ -759,7 +413,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
               <div class="footer_bootomLeft">
-                <p> Copyright &copy; All Rights Reserved</p>
+                <p> Copyright &copy; Santo Nicholas School.All Rights Reserved</p>
               </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -799,7 +453,10 @@
     <script type="text/javascript" language="javascript" src="js/jquery.tosrus.min.all.js"></script>   
     s<!-- Custom js-->
     <script src="js/custom.js"></script>
-    <script src="js/slidauto.js"></script>
+    <script src="js/slides.slider-22.1.8.min.js" type="text/javascript"></script>
+    <!--<script type="text/javascript" src="js/slideauto.js"></script>-->
+    <script type="text/javascript">slides_slider_init();</script>
+    <script src="js/maps.js"></script>
     <!--=============================================== 
     Template Design By WpFreeware Team.
     Author URI : http://www.wpfreeware.com/
